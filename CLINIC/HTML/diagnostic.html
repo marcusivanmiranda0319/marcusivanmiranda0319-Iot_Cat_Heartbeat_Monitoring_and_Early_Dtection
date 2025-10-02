@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Diagnostic • All Cats</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="../CSS/index.css" />
+  <link rel="stylesheet" href="../CSS/diagnostic.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">VET • CLINIC</div>
+    <nav>
+      <a href="index.html">Dashboard</a>
+      <a href="alert.html">Alert</a>
+      <a href="record.html">Record</a>
+      <a class="active">Diagnostic</a>
+    </nav>
+  </aside>
+
+  <main class="content">
+    <header class="toolbar">
+      <h2 style="margin:0">All Registered Cats</h2>
+    </header>
+
+    <section id="catsGrid" class="grid"></section>
+
+    <div id="toastArea" class="toast-area" aria-live="polite" aria-atomic="true"></div>
+  </main>
+
+  <script src="../JS/diagnostic.js" defer></script>
+</body>
+</html>
